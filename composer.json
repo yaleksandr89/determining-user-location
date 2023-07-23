@@ -1,0 +1,24 @@
+{
+    "name": "yaleksandr89/determining-user-location",
+    "description": "API for determining the user location",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ya\\Weather\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksandr Yurchenko",
+            "email": "y.aleksandr89@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.3"
+    }
+}
